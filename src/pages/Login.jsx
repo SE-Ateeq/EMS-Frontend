@@ -14,7 +14,7 @@ const Login = () => {
     const handleSubmit = async (e)=>{
         e.preventDefault()
         try {
-            const response = await axios.post("https://ems-backend-omega.vercel.app/api/auth/login", 
+            const response = await axios.post("https://ems-backend-lovat.vercel.app/api/auth/login", 
             {email, password}
         );
         if(response.data.success){

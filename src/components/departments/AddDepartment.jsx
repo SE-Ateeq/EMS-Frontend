@@ -18,7 +18,7 @@ const handleChange = (e) =>{
 const handleSubmit = async (e) =>{
     e.preventDefault()
     try {
-        const response = await axios.post("https://ems-backend-omega.vercel.app/api/department/add", department, {
+        const response = await axios.post("https://ems-backend-lovat.vercel.app/api/department/add", department, {
             headers: {
                 "Authorization" : `Bearer ${localStorage.getItem("token")}`
             }

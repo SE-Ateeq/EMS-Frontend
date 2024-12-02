@@ -23,7 +23,7 @@ const handleSubmit = async (e)  =>{
     e.preventDefault();
     try {
         const response = await axios.post(
-          `https://ems-backend-omega.vercel.app/api/leave/add`,leave,
+          `https://ems-backend-lovat.vercel.app/api/leave/add`,leave,
           {
             headers: {
                 "Content-Type": "application/json",
